@@ -9,5 +9,5 @@ It's Christmas and I wonder how people keep track of/find out who likes what. Bu
 
 ## How
 - Crawl facebook likes
-- Crawl and analyse facebook status?
+- Crawl and analyse facebook status/tweets?
 - Compare and extrapolate from similar profiles?
