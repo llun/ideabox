@@ -26,6 +26,10 @@ buy from a market which might be more powerful and cheaper.
 - [Linksys AE3000 custom firmware](https://github.com/RD777/rt3573sta)
 - [Asus AC56 custom firmware](https://github.com/gnab/rtl8812au)
 
-## Reference:
+## Reference
 
 - [Using Hostapd with dnsmasq to create Virtual Wifi Access Point in Linux](http://nims11.wordpress.com/2013/05/22/using-hostapd-with-dnsmasq-to-create-virtual-wifi-access-point-in-linux/)
+- [Supported wireless driver](http://wireless.kernel.org/en/users/Drivers)
+- [8 Linux Commands: To Find Out Wireless Network Speed, Signal Strength And Other Information](http://www.cyberciti.biz/tips/linux-find-out-wireless-network-speed-signal-strength.html)
+- [RT5572 cfg80211.c source for updating RT3573 driver in newer kernel](https://github.com/boundarydevices/rt5572/blob/master/os/linux/cfg80211.c)
+
