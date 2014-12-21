@@ -25,3 +25,7 @@ buy from a market which might be more powerful and cheaper.
 - Debian 7 Wheezy with backports kernel
 - [Linksys AE3000 custom firmware](https://github.com/RD777/rt3573sta)
 - [Asus AC56 custom firmware](https://github.com/gnab/rtl8812au)
+
+## Reference:
+
+- [Using Hostapd with dnsmasq to create Virtual Wifi Access Point in Linux](http://nims11.wordpress.com/2013/05/22/using-hostapd-with-dnsmasq-to-create-virtual-wifi-access-point-in-linux/)
