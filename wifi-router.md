@@ -32,4 +32,4 @@ buy from a market which might be more powerful and cheaper.
 - [Supported wireless driver](http://wireless.kernel.org/en/users/Drivers)
 - [8 Linux Commands: To Find Out Wireless Network Speed, Signal Strength And Other Information](http://www.cyberciti.biz/tips/linux-find-out-wireless-network-speed-signal-strength.html)
 - [RT5572 cfg80211.c source for updating RT3573 driver in newer kernel](https://github.com/boundarydevices/rt5572/blob/master/os/linux/cfg80211.c)
-
+- [http://forum.doozan.com/read.php?2,6300](http://forum.doozan.com/read.php?2,6300)
