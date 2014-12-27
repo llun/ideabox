@@ -34,7 +34,7 @@ buy from a market which might be more powerful and cheaper.
 - Install intel wifi firmware by apt, `aptitude install -t wheezy-backports firmware-iwlwifi`
 - Clone Asus AC56 firmware from github repo above and run `make install` to install the driver.
 - Install hostapd, iw and wireless-tools for configuring wifi.
-- Set iw country with this command, `iw reg set SG`
+- Set iw country with this command, `iw reg set SG` (In debian jessie, add country code in `/etc/default/crda` for permanent change.)
 - Add hostapd configure to `/etc/network/interfaces`, make interface auto start as AP.
 
 ```
