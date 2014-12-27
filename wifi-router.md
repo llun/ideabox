@@ -37,7 +37,7 @@ buy from a market which might be more powerful and cheaper.
 - Set iw country with this command, `iw reg set SG`
 - Add hostapd configure to `/etc/network/interfaces`, make interface auto start as AP.
 
-```shell
+```
 iface wlan0 inet static
 hostapd /etc/hostapd/wlan0.conf
 address 192.168.1.1
@@ -46,7 +46,7 @@ netmask 255.255.255.0
 
 - And hostapd configuration for Asus AC56
 
-```shell
+```
 interface=wlan0
 ssid=<your ssid>
 driver=nl80211
