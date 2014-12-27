@@ -26,6 +26,46 @@ buy from a market which might be more powerful and cheaper.
 - [Linksys AE3000 custom firmware](https://github.com/RD777/rt3573sta)
 - [Asus AC56 custom firmware](https://github.com/abperiasamy/rtl8812AU_8821AU_linux)
 
+## Instructions
+
+- Install Debian and add backports repository to apt source.
+- Update all packages and install kernel header and build-essentials tools.
+- Add non-free repo to both backports and main apt repository.
+- Install intel wifi firmware by apt, `aptitude install -t wheezy-backports firmware-iwlwifi`
+- Clone Asus AC56 firmware from github repo above and run `make install` to install the driver.
+- Install hostapd, iw and wireless-tools for configuring wifi.
+- Set iw country with this command, `iw reg set SG`
+- Add hostapd configure to `/etc/network/interfaces`, make interface auto start as AP.
+
+```shell
+iface wlan0 inet static
+hostapd /etc/hostapd/wlan0.conf
+address 192.168.1.1
+netmask 255.255.255.0
+```
+
+- And hostapd configuration for Asus AC56
+
+```shell
+interface=wlan0
+ssid=<your ssid>
+driver=nl80211
+ieee80211n=1
+ht_capab=HT40+
+wmm_enabled=1
+hw_mode=a
+channel=<your channel that's not conflict with other wifi in your house.>
+macaddr_acl=0
+auth_algs=1
+wpa=3
+wpa_passphrase=<wifi password>
+wpa_key_mgmt=WPA-PSK
+wpa_pairwise=TKIP
+rsn_pairwise=CCMP
+```
+
+- Setup dhcp server and iptable firewall make main connection forward all traffic to this wifi. (can follow the first link in reference section.)
+
 ## Reference
 
 - [Using Hostapd with dnsmasq to create Virtual Wifi Access Point in Linux](http://nims11.wordpress.com/2013/05/22/using-hostapd-with-dnsmasq-to-create-virtual-wifi-access-point-in-linux/)
