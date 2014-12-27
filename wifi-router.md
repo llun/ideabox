@@ -24,7 +24,7 @@ buy from a market which might be more powerful and cheaper.
 
 - Debian 7 Wheezy with backports kernel
 - [Linksys AE3000 custom firmware](https://github.com/RD777/rt3573sta)
-- [Asus AC56 custom firmware](https://github.com/gnab/rtl8812au)
+- [Asus AC56 custom firmware](https://github.com/abperiasamy/rtl8812AU_8821AU_linux)
 
 ## Reference
 
@@ -33,3 +33,4 @@ buy from a market which might be more powerful and cheaper.
 - [8 Linux Commands: To Find Out Wireless Network Speed, Signal Strength And Other Information](http://www.cyberciti.biz/tips/linux-find-out-wireless-network-speed-signal-strength.html)
 - [RT5572 cfg80211.c source for updating RT3573 driver in newer kernel](https://github.com/boundarydevices/rt5572/blob/master/os/linux/cfg80211.c)
 - [http://forum.doozan.com/read.php?2,6300](http://forum.doozan.com/read.php?2,6300)
+- [Question: AP support in 5ghz?](https://github.com/abperiasamy/rtl8812AU_8821AU_linux/issues/10)
