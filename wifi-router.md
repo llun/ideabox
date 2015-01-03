@@ -74,3 +74,6 @@ rsn_pairwise=CCMP
 - [RT5572 cfg80211.c source for updating RT3573 driver in newer kernel](https://github.com/boundarydevices/rt5572/blob/master/os/linux/cfg80211.c)
 - [http://forum.doozan.com/read.php?2,6300](http://forum.doozan.com/read.php?2,6300)
 - [Question: AP support in 5ghz?](https://github.com/abperiasamy/rtl8812AU_8821AU_linux/issues/10)
+- [rt2800usb.c source](http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/drivers/net/wireless/rt2x00/rt2800usb.c)
+- [rt2x00usb.c source](http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/drivers/net/wireless/rt2x00/rt2x00usb.c)
+- [RPi USB Wifi Adapter](http://elinux.org/RPi_USB_Wi-Fi_Adapters)
